@@ -1,0 +1,22 @@
+PREGUNTAS DEL LABORATORIO - PETICIONES WEB CON JAVASCRIPT (XMLHttpRequest + DOM)
+
+Paso 1:
+- ¿Qué es el objeto generado por XMLHttpRequest?
+  Es una instancia de XMLHttpRequest (un objeto integrado en el navegador) que permite realizar peticiones HTTP/HTTPS de forma asíncrona a un servidor o API y recibir la respuesta sin recargar toda la página.
+
+- ¿Qué hace el método open de xhr?
+  Configura e inicializa la petición indicando el método HTTP (por ejemplo "GET"), la URL o endpoint al que se solicita información y si la petición es asíncrona.
+
+- ¿Qué hace el método onload de xhr?
+  Es un manejador de evento que se ejecuta cuando la petición se completa exitosamente y la respuesta está lista para leerse y procesarse.
+
+- ¿Qué muestra la consola al escribir data y presionar Enter?
+  [Anota aquí lo que muestre en tu consola: el arreglo/objeto cargado o undefined/error si aún no se ha asignado o su alcance es local dentro de una función].
+
+Paso 2:
+- ¿Qué significa => en el código anterior?
+  Es la sintaxis de función flecha (arrow function) en JavaScript, una forma concisa de escribir funciones anónimas (aquí recibe cada elemento del arreglo y ejecuta el bloque indicado).
+
+Paso 3:
+- ¿Qué hace filter y cómo funciona includes en este contexto?
+  El método filter() recorre el arreglo y devuelve un nuevo arreglo solo con los elementos para los cuales la función devuelve true (aquí evalúa cada objeto e). El método includes() verifica si la cadena e.title contiene como subcadena el texto ingresado en el campo de búsqueda, devolviendo true o false.
